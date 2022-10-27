@@ -15,9 +15,11 @@
 
         /* Classes */
         .Classe1 {
-            border: 1px solid black;
-            color: black;
-            width: 100%;
+            overflow: hidden;
+        }
+        
+        .lorem {
+            /* clear: both; */
         }
 
         .link-verde {
@@ -25,13 +27,23 @@
         }
 
         .Classe2 {
-            width: 100%;
             border: 1px solid black;
+            box-sizing: border-box ;
+            font-size: 1rem;
+            float: left;
+            padding: 2%;
+            width: 20%;
+        }
+
+        .Classe3 {
+            color: green;
         }
 
         .link-rosa {
-            color:violet
+            color:rgb(255, 0, 242);
+            background-color: rgba(150,150,150,0.5);
         }
+
     </style>
 </head>
     <body>
@@ -54,40 +66,46 @@
             Eu sou a tabela 2
         </h2>
             <div class="Classe1">
-                <h3>Ian Rodrigo Stoltz</h3>
-                    <a href="www.google.com"  class="link-rosa"> Aqui</a>
-                        <p>
-                            Formado em Biologia em 2020, começou a estudar programação em 2022.
-                            Foi participante do
-                            <a href="www.centroacademico.com" class="link-verde"> centro acadêmico,</a> 
-                            como <em> membro </em> todos os anos da graduação.
-                        </p>
-            </div>
+                <div class="Classe2">
+                    <h3>Ian Rodrigo Stoltz</h3>
+                        <a href="www.google.com"  class="link-rosa"> Aqui</a>
+                            <p>
+                                Formado em Biologia em 2020, começou a estudar programação em 2022.
+                                Foi participante do
+                                <a href="www.centroacademico.com" class="link-verde"> centro acadêmico,</a> 
+                                como <em> membro </em> todos os anos da graduação.
+                            </p>
+                </div>
 
-            <div class="Classe1">
+                <div class="Classe2">
+                    <p>
+                        Começou aprendendo HTML e C# com os cursos da 
+                            <a href="http://example.com/" class="link-verde">Escola do trabalhador 4.0</a>
+                    </p>
+                </div>
+
+                <div class="Classe2">
+                    <p>
+                        Iniciou estudos em como utilizar o GIT para upar projetos para internet.
+                            <a href="http://example.com/" class="link-verde">github.com</a>
+                    </p>
+                </div>
+
+                <div class="Classe2">
+                    <p>
+                        Está tentando aprender a usar a função float, porém voltou atrás para entender como funciona o estilo do estilo
+                            <a href="http://example.com/" class="link-verde">I am a link</a>
+                    </p>
+                </div>
+
+                <div class="Classe2">
+                    <a href="http://example.com/" class="link-rosa">I am a link</a>
+                </div>
+            </div>
+                <p class="lorem">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod exercitationem pariatur beatae. Eius mollitia recusandae, quo quis quod quisquam asperiores et voluptates ea reprehenderit commodi officia, quas nam molestias iste.
                 <p>
-                    Começou aprendendo HTML e C# com os cursos da 
-                        <a href="http://example.com/" class="link-verde">Escola do trabalhador 4.0</a>
-                </p>
-            </div>
-
-            <div class="Classe1">
-                <p>
-                    Iniciou estudos em como utilizar o GIT para upar projetos para internet.
-                        <a href="http://example.com/" class="link-verde">github.com</a>
-                </p>
-            </div>
-
-            <div class="Classe1">
-                <p>
-                    Está tentando aprender a usar a função float, porém voltou atrás para entender como funciona o estilo do estilo
-                        <a href="http://example.com/" class="link-verde">I am a link</a>
-                </p>
-            </div>
-
-            <div class="Classe1">
-                <a href="http://example.com/"  class="link-rosa">I am a link</a>
-            </div>
-        
+            
+               
     </body>
 </html>
