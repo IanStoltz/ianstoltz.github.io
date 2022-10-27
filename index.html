@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,59 +7,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+
+        /* Global */
         a {
             color: red;
         }
 
-        #exec-bio {
-            background-color: lightgrey;
-        }
-
+        /* Classes */
         .Classe1 {
             border: 1px solid black;
+            color: black;
+            width: 100%;
         }
-        
-        .Classe1 a {
+
+        .link-verde {
             color: green;
         }
 
-        .Classe1 {
-            width: 50%;
+        .Classe2 {
+            width: 100%;
+            border: 1px solid black;
         }
-        
+
+        .link-rosa {
+            color:violet
+        }
     </style>
-
 </head>
-<body>
-    <h1>I'm an h1</h1>    
-    <ul>
-        <li>
-            <a href="http://example.com/">Link</a>
-        </li>
-        <li>
-            <a href="http://example.com/">Link</a>
-        </li>
-        <li>
-            <a href="http://example.com/">Link</a>
-        </li>
-    </ul>
+    <body>
+        <h1>
+            Eu sou a tabela um
+        </h1>    
+            <ul>
+                <li>
+                    <a href="http://example.com/">Link</a>
+                </li>
+                <li>
+                    <a href="http://example.com/">Link</a>
+                </li>
+                <li>
+                    <a href="http://example.com/">Link</a>
+                </li>
+            </ul>
 
-    <h2>I'm an h2</h2>
+        <h2>
+            Eu sou a tabela 2
+        </h2>
+            <div class="Classe1">
+                <h3>Ian Rodrigo Stoltz</h3>
+                    <a href="www.google.com"  class="link-rosa"> Aqui</a>
+                        <p>
+                            Formado em Biologia em 2020, começou a estudar programação em 2022.
+                            Foi participante do
+                            <a href="www.centroacademico.com" class="link-verde"> centro acadêmico,</a> 
+                            como <em> membro </em> todos os anos da graduação.
+                        </p>
+            </div>
 
-    <div id="exec-bio" class="Classe1">
-        <a href="http://example.com/">I am a link</a>
-    </div>
+            <div class="Classe1">
+                <p>
+                    Começou aprendendo HTML e C# com os cursos da 
+                        <a href="http://example.com/" class="link-verde">Escola do trabalhador 4.0</a>
+                </p>
+            </div>
 
-    <div class="Classe1">
-        <a href="http://example.com/">I am a link</a>
-    </div>
+            <div class="Classe1">
+                <p>
+                    Iniciou estudos em como utilizar o GIT para upar projetos para internet.
+                        <a href="http://example.com/" class="link-verde">github.com</a>
+                </p>
+            </div>
 
-    <div class="Classe1">
-        <a href="http://example.com/">I am a link</a>
-    </div>
+            <div class="Classe1">
+                <p>
+                    Está tentando aprender a usar a função float, porém voltou atrás para entender como funciona o estilo do estilo
+                        <a href="http://example.com/" class="link-verde">I am a link</a>
+                </p>
+            </div>
 
-    <div class="Classe1 alert">
-        <a href="http://example.com/">I am a link</a>
-    </div>
-</body>
+            <div class="Classe1">
+                <a href="http://example.com/"  class="link-rosa">I am a link</a>
+            </div>
+        
+    </body>
 </html>
