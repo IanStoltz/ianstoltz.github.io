@@ -10,16 +10,16 @@
 
         /* Global */
         a {
-            color: red;
+            box-sizing: border-box;
+            color: #fff;
+            
         }
 
         /* Classes */
         .Classe1 {
+            margin:auto;
+            max-width: 600;
             overflow: hidden;
-        }
-        
-        .lorem {
-            /* clear: both; */
         }
 
         .link-verde {
@@ -31,8 +31,9 @@
             box-sizing: border-box ;
             font-size: 1rem;
             float: left;
+            margin: 3%;
             padding: 2%;
-            width: 20%;
+            width: 14%;
         }
 
         .Classe3 {
@@ -44,21 +45,51 @@
             background-color: rgba(150,150,150,0.5);
         }
 
+        .links {
+            background-color: grey;
+            border-radius: 99px;
+            box-sizing: border-box;
+            display: inline-block;
+            font-size: 1rem;
+            font-style: Helvetica;
+            height: 2.5em;
+            line-height: 1;
+            padding-top: 0.5em;
+            text-align: center;
+            text-decoration: none;
+            vertical-align: middle;
+            width: 2.5em;
+        }
+
+        .social-list{
+            list-style: none;
+            padding: 0%;
+            text-align: center;
+
+        }
+
+        .social-list > li {
+            display:inline-block; 
+            margin: 0em 0.5em;
+            width: 36px;          
+            height: 36px;
+        }
+
     </style>
 </head>
     <body>
         <h1>
             Eu sou a tabela um
         </h1>    
-            <ul>
+            <ul class="social-list">
                 <li>
-                    <a href="http://example.com/">Link</a>
+                    <a href="http://example.com/" class="links">FB</a>
                 </li>
                 <li>
-                    <a href="http://example.com/">Link</a>
+                    <a href="http://example.com/" class="links">TT</a>
                 </li>
                 <li>
-                    <a href="http://example.com/">Link</a>
+                    <a href="http://example.com/" class="links">GH</a>
                 </li>
             </ul>
 
